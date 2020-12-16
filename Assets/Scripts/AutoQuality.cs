@@ -12,7 +12,7 @@ public class AutoQuality : MonoBehaviour
     private bool downgraded = false;
     private void Start()
     {
-        InvokeRepeating("CheckFps",1,1);
+        InvokeRepeating("CheckFps",4,1);
     }
 
     private void CheckFps()
